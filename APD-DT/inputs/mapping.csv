@@ -1,0 +1,6 @@
+Model;DT-API;Device-API
+Device;/devices/<int:num>/;XXX
+Setting;/devices/<int:num>/settings/;XXX
+MedicationPlan;/devices/<int:num>/medication/;XXX
+Manage;/devices/<int:num>/manage/;XXX
+Cartridge;/devices/<int:num>/cartridge/;XXX

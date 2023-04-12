@@ -1,0 +1,50 @@
+{
+    "Device": {
+        "type": "",
+        "status": "",
+        "number": "",
+        "location": "",
+        "note": "",
+        "MedicationPlan": {
+            "first_dose_date": "",
+            "period_days": "",
+            "IntakeTime": {
+                "time": "",
+                "MedicationLine": {
+                    "doses": "",
+                    "current_roll": "",
+                    "next_roll": ""
+                }
+            }
+        },
+        "Setting": {
+            "early_access_to_medication": "",
+            "language": "",
+            "connection": "",
+            "Alarm": {
+                "silent_mode": "",
+                "melody": "",
+                "volume": "",
+                "volume_boost": "",
+                "duration": "",
+                "interval": "",
+                "repetitions": ""
+            },
+            "Display": {
+                "sleep_mode": "",
+                "auto_brightness": "",
+                "brightness": ""
+            },
+            "DateAndTime": {
+                "auto": "",
+                "date": "",
+                "time": "",
+                "time_zone": "",
+                "use_24h_format": ""
+            }
+        },
+        "Cartridge": {
+            "is_empty": ""
+        }
+    }
+}

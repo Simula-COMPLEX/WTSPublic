@@ -1,0 +1,62 @@
+{
+    "Device": {
+        "type": "Karie",
+        "status": "Good",
+        "number": "1001",
+        "location": "Zone1",
+        "note": "No note",
+        "MedicationPlan-1": {
+            "first_dose_date": "2023-03-11",
+            "period_days": "1",
+            "IntakeTime-1": {
+                "time": "15:47:00",
+                "MedicationLine-1": {
+                    "doses": "2",
+                    "current_roll": "True",
+                    "next_roll": "False"
+                }
+            }
+        },
+        "MedicationPlan-2": {
+            "first_dose_date": "2023-03-11",
+            "period_days": "1",
+            "IntakeTime-2": {
+                "time": "15:48:00",
+                "MedicationLine-2": {
+                    "doses": "1",
+                    "current_roll": "True",
+                    "next_roll": "False"
+                }
+            }
+        },
+        "Setting": {
+            "early_access_to_medication": "3",
+            "language": "English",
+            "connection": "Cellular",
+            "Alarm": {
+                "silent_mode": "False",
+                "melody": "2",
+                "volume": "0",
+                "volume_boost": "True",
+                "duration": "350",
+                "interval": "55",
+                "repetitions": "5"
+            },
+            "Display": {
+                "sleep_mode": "True",
+                "auto_brightness": "False",
+                "brightness": "1"
+            },
+            "DateAndTime": {
+                "auto": "False",
+                "date": "2023-03-03",
+                "time": "15:00:00",
+                "time_zone": "Central European Time (CET)",
+                "use_24h_format": "True"
+            }
+        },
+        "Cartridge": {
+            "is_empty": "False"
+        }
+    }
+}

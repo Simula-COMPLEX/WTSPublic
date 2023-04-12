@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<minifsm:FSM
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:minifsm="http://minifsm"
+    xsi:schemaLocation="http://minifsm MiniFsm.ecore">
+  <states xsi:type="minifsm:Initial"
+      name="Start"/>
+  <states name="Setup"/>
+  <states name="Load Medication Plan"/>
+  <states name="Check Medication Plan"/>
+  <states name="Dispense"/>
+  <states xsi:type="minifsm:Terminal"
+      name="End"/>
+  <transitions
+      incoming="//@states.0"
+      outgoing="//@states.1"
+      event="begin"/>
+  <transitions
+      incoming="//@states.1"
+      outgoing="//@states.2"
+      event="initialize"/>
+  <transitions
+      incoming="//@states.2"
+      outgoing="//@states.3"
+      event="loaded"/>
+  <transitions
+      incoming="//@states.3"
+      outgoing="//@states.4"
+      event="start dispensing"/>
+  <transitions
+      incoming="//@states.4"
+      outgoing="//@states.3"
+      event="finish dispensing"/>
+  <transitions
+      incoming="//@states.3"
+      outgoing="//@states.2"
+      event="complete"/>
+</minifsm:FSM>

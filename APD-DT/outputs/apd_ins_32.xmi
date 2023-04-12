@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0">
+  <ns0:Alarm xmlns:ns0="http://www.example.org/apd_mm" melody="2" volume_boost="true" duration="350" interval="55" repetitions="5"/>
+  <ns0:MedicationPlan xmlns:ns0="http://www.example.org/apd_mm" first_dose_date="2023-03-11" period_days="1"/>
+  <ns0:MedicationPlan xmlns:ns0="http://www.example.org/apd_mm" first_dose_date="2023-03-11" period_days="1"/>
+  <ns0:DateAndTime xmlns:ns0="http://www.example.org/apd_mm" date="2023-03-03" time="15:00:00" time_zone="Central European Time (CET)" use_24h_format="true"/>
+  <ns0:Setting xmlns:ns0="http://www.example.org/apd_mm" early_access_to_medication="3"/>
+  <ns0:Device xmlns:ns0="http://www.example.org/apd_mm" type="Karie" number="1001" location="Zone1" note="No note"/>
+  <ns0:Display xmlns:ns0="http://www.example.org/apd_mm" sleep_mode="true" brightness="1"/>
+  <ns0:Cartridge xmlns:ns0="http://www.example.org/apd_mm"/>
+  <ns0:MedicationLine xmlns:ns0="http://www.example.org/apd_mm" doses="2" current_roll="true"/>
+  <ns0:MedicationLine xmlns:ns0="http://www.example.org/apd_mm" doses="1" current_roll="true"/>
+  <ns0:IntakeTime xmlns:ns0="http://www.example.org/apd_mm" time="15:47:00"/>
+  <ns0:IntakeTime xmlns:ns0="http://www.example.org/apd_mm" time="15:48:00"/>
+</xmi:XMI>
