@@ -33,7 +33,7 @@ Install dependencies following instructions:
 ### Step: 3
 **Inputs settings**
 
-Input settings can be change in different input files in `inputs` directory. 
+Input settings can be change in different input files in `APD-DT/inputs` directory. 
 
 **Running one DT**
 
@@ -41,4 +41,4 @@ To execute one DT, run `dt-main.py` file.
 
 **Running multiple DTs**
 
-To execute multiple DT, run `dts-main.py` file. The number of DTs to run can be configured in `inputs/serial-numbers.txt` file.  
+To execute multiple DT, run `dts-main.py` file. The number of DTs to run can be configured in `APD-DT/inputs/serial-numbers.txt` file.  
