@@ -1,5 +1,5 @@
 # APD-DT
-A tool for automated creation and simulation of digital twins for smart pill dispenser devices. 
+A tool for automated creation and operation of digital twins for automatic medicine dispensers. 
 This work is a part of Welfare Technology Solution (WTS) project. 
 
 [//]: # (The repository contains open-source implementation)
