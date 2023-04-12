@@ -6,18 +6,18 @@ This work is a part of Welfare Technology Solution (WTS) project.
 
 
 ## Basic Requirements
-_______________________________________
+
 * IDE: PyCharm
 * Python: 3.9 or higher 
 
 ## Dependencies
-_______________________________________
+
 * PyEcore: 0.13.1 
 * Flask: 2.2.3
 * Flask-RESTful: 0.3.9
 
 ## Usage Guide
-_______________________________________
+
 ### Step: 1 
 Clone the repository using the following command.
 ```
