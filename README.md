@@ -41,4 +41,9 @@ To execute one DT, run `dt-main.py` file.
 
 **Running multiple DTs**
 
-To execute multiple DT, run `dts-main.py` file. The number of DTs to run can be configured in `APD-DT/inputs/serial-numbers.txt` file.  
+To execute multiple DT, run `dts-main.py` file. The number of DTs to run can be configured in `APD-DT/inputs/serial-numbers.txt` file.
+
+**Communicating with DT(s)**
+
+Use the APIs provided in mapping file, add the serial number of a specific dispenser, and use Postman of other client to send HTTP requests to the DT(s) and get response from the DT(s). 
+The supported data interchange format is JSON. 
