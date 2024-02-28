@@ -1,9 +1,11 @@
 # APD-DT
 A tool for automated creation and operation of digital twins for automatic medicine dispensers. 
-This work is a part of Welfare Technology Solution (WTS) project. 
+This work is a part of the Welfare Technology Solution (WTS) project. 
 
 [//]: # (The repository contains open-source implementation)
 
+## Related Publication
+* Hassan Sartaj, Shaukat Ali, Tao Yue, and Kjetil Moberg. "Model‐based digital twins of medicine dispensers for healthcare IoT applications." *Software: Practice and Experience* (2024); 1-21. doi: 10.1002/spe.3311 [[Preprint]](https://arxiv.org/abs/2312.04662)
 
 ## Basic Requirements
 
@@ -33,7 +35,7 @@ Install dependencies following instructions:
 ### Step: 3
 **Inputs settings**
 
-Input settings can be change in different input files in `APD-DT/inputs` directory. 
+Input settings can be changed in different input files in `APD-DT/inputs` directory. 
 
 **Running one DT**
 
@@ -41,9 +43,9 @@ To execute one DT, run `dt-main.py` file.
 
 **Running multiple DTs**
 
-To execute multiple DT, run `dts-main.py` file. The number of DTs to run can be configured in `APD-DT/inputs/serial-numbers.txt` file.
+To execute multiple DTs, run `dts-main.py` file. The number of DTs to run can be configured in `APD-DT/inputs/serial-numbers.txt` file.
 
 **Communicating with DT(s)**
 
-Use the APIs provided in mapping file, add the serial number of specific dispenser(s), and use Postman or any other client to send HTTP requests to the DT(s) and get response from the DT(s). 
+Use the APIs provided in the mapping file, add the serial number of the specific dispenser(s), and use Postman or any other client to send HTTP requests to the DT(s) and get a response from the DT(s). 
 The supported data interchange format is JSON. 
